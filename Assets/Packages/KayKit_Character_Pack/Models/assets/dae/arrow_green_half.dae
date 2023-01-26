@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.80.75 commit date:2019-07-29, commit time:14:47, hash:f6cb5f54494e</authoring_tool>
+    </contributor>
+    <created>2021-09-18T16:45:57</created>
+    <modified>2021-09-18T16:45:57</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="BrownDark-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.3269456 0.1015262 0.0592709 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="GreenDark-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.02141951 0.2573116 0.2667613 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="BrownDark-material" name="BrownDark">
+      <instance_effect url="#BrownDark-effect"/>
+    </material>
+    <material id="GreenDark-material" name="GreenDark">
+      <instance_effect url="#GreenDark-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cylinder_023-mesh" name="Cylinder.023">
+      <mesh>
+        <source id="Cylinder_023-mesh-positions">
+          <float_array id="Cylinder_023-mesh-positions-array" count="45">0.01602089 -0.009249627 0.2218198 0.01519304 -0.008771657 0.3642736 0 0.01849937 0.2218198 0 0.01754337 0.3642736 -0.01602089 -0.009249627 0.2218198 -0.01519304 -0.008771657 0.3642736 0.07499462 0.04329812 0.3016854 0.05153316 0.02975267 0.4034227 0 -0.08659631 0.3016854 0 -0.0595054 0.4034226 -0.07499462 0.04329818 0.3016854 -0.05153322 0.02975273 0.4034227 0.01602089 -0.009249627 -0.02984619 0 0.01849937 -0.02984619 -0.01602089 -0.009249627 -0.02984613</float_array>
+          <technique_common>
+            <accessor source="#Cylinder_023-mesh-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cylinder_023-mesh-normals">
+          <float_array id="Cylinder_023-mesh-normals-array" count="117">-0.2165092 0.1250011 0.968245 -0.5290706 -0.305459 0.7916938 -3.09908e-7 -0.2500032 0.968245 0 0.9990991 0.04243969 -0.306635 0.9515213 0.0241295 0 0.9999776 0.00671041 -0.9773591 -0.2102071 0.02412956 -0.8652451 -0.4995496 0.04243981 -0.866006 -0.4999887 0.006710469 0.2165088 0.1250013 0.9682452 0 0.610917 0.7916947 0.8652451 -0.4995496 0.04243963 0.9773591 -0.2102071 0.02412945 0.866006 -0.4999888 0.00671041 0.3066351 0.9515213 0.02412945 0.5290696 -0.3054589 0.7916946 -0.6707242 -0.7413144 0.0241295 0.6707243 -0.7413142 0.02412945 0.8088612 0.4669964 -0.3572925 0.6221041 0.3591724 -0.6956879 0.8088611 0.4669965 -0.3572927 -5.04214e-7 -0.9339926 -0.3572922 -1.04572e-6 -0.7183443 -0.6956878 -5.04215e-7 -0.9339926 -0.3572927 -0.8088613 0.466996 -0.3572927 -0.6221047 0.3591716 -0.6956878 -0.8088615 0.4669961 -0.3572922 0 -1 0 0 -1 0 -0.8660255 0.5000001 0 0.8660255 0.5 0 -0.2758904 0.9590516 0.06406718 -0.9685082 -0.240598 0.0640673 0.9685082 -0.2405979 0.06406706 0.2758904 0.9590517 0.064067 -0.6926177 -0.7184541 0.06406718 0.692618 -0.7184538 0.064067 -0.8660254 0.5000001 0 0.8660255 0.5000001 0</float_array>
+          <technique_common>
+            <accessor source="#Cylinder_023-mesh-normals-array" count="39" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cylinder_023-mesh-map-0">
+          <float_array id="Cylinder_023-mesh-map-0-array" count="150">0.875 0.75 0.696262 0.5 0.875 0.5 0.625 0.25 0.375 0.4490171 0.375 0.25 0.375 0.800983 0.625 1 0.375 1 0.875 0.75 0.696262 0.5 0.875 0.5 0.625 0.25 0.375 0.4490171 0.375 0.25 0.375 0.800983 0.625 1 0.375 1 0.875 0.75 0.696262 0.5 0.875 0.5 0.625 0.25 0.375 0.4490171 0.375 0.25 0.375 0.800983 0.625 1 0.375 1 0 0 0 0 0 0 0.125 0.5 0.3240171 0.7500001 0.125 0.75 0.125 0.5 0.3240171 0.75 0.125 0.75 0.125 0.5 0.3240171 0.7500001 0.125 0.75 0.125 0.5 0.125 0.75 0.125 0.5 0.125 0.75 0.125 0.5 0.125 0.5 0.125 0.75 0.125 0.5 0.125 0.5 0.625 0.25 0.625 0.428738 0.375 0.4490171 0.375 0.800983 0.625 0.821262 0.625 1 0.625 0.25 0.625 0.428738 0.375 0.4490171 0.375 0.800983 0.625 0.821262 0.625 1 0.625 0.25 0.625 0.428738 0.375 0.4490171 0.375 0.800983 0.625 0.821262 0.625 1 0.125 0.5 0.125 0.75 0.125 0.75 0.125 0.75 0.125 0.75 0.125 0.5 0.125 0.75 0.125 0.75 0.125 0.5</float_array>
+          <technique_common>
+            <accessor source="#Cylinder_023-mesh-map-0-array" count="75" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cylinder_023-mesh-vertices">
+          <input semantic="POSITION" source="#Cylinder_023-mesh-positions"/>
+        </vertices>
+        <triangles material="BrownDark-material" count="6">
+          <input semantic="VERTEX" source="#Cylinder_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cylinder_023-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cylinder_023-mesh-map-0" offset="2" set="0"/>
+          <p>0 21 39 14 27 40 12 28 41 2 26 42 14 29 43 4 24 44 0 20 45 13 30 46 2 18 47 0 21 66 4 23 67 14 27 68 2 26 69 13 37 70 14 29 71 0 20 72 12 38 73 13 30 74</p>
+        </triangles>
+        <triangles material="GreenDark-material" count="19">
+          <input semantic="VERTEX" source="#Cylinder_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cylinder_023-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cylinder_023-mesh-map-0" offset="2" set="0"/>
+          <p>1 0 0 7 1 1 3 2 2 3 3 3 6 4 4 2 5 5 8 6 6 5 7 7 4 8 8 5 9 9 9 10 10 1 0 11 1 11 12 8 12 13 0 13 14 10 14 15 3 3 16 2 5 17 3 2 18 11 15 19 5 9 20 5 7 21 10 16 22 4 8 23 6 17 24 1 11 25 0 13 26 1 0 27 3 2 28 5 9 29 2 18 30 6 19 31 0 20 32 0 21 33 8 22 34 4 23 35 4 24 36 10 25 37 2 26 38 3 3 48 7 31 49 6 4 50 8 6 51 9 32 52 5 7 53 1 11 54 9 33 55 8 12 56 10 14 57 11 34 58 3 3 59 5 7 60 11 35 61 10 16 62 6 17 63 7 36 64 1 11 65</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="arrow_green_half" name="arrow_green_half" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cylinder_023-mesh" name="arrow_green_half">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="BrownDark-material" target="#BrownDark-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="GreenDark-material" target="#GreenDark-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
