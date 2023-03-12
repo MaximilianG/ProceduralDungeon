@@ -31,9 +31,6 @@ public class Room : MonoBehaviour
             }
         }
 
-        if (results.Count == 1)
-            return true;
-
-        return false;
+        return results.Count == 1;
     }
 }
